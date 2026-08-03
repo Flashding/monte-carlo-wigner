@@ -103,8 +103,7 @@ $$
 \frac{\partial W}{\partial t}
 +
 \frac{p}{m}\frac{\partial W}{\partial x}
-=
-\Theta[V]W.
+= \Theta[V]W.
 $$
 
 In a particle representation, each sample is described by
