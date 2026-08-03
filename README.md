@@ -91,37 +91,37 @@ installed `mcw` package and discovers all test functions automatically.
 The Wigner function \(W(x,p)\) is a phase-space quasi-probability distribution.
 Its marginals recover position and momentum probability densities:
 
-\[
+$$
 \int W(x,p)\,dp = |\psi(x)|^2,
 \qquad
 \int W(x,p)\,dx = |\tilde{\psi}(p)|^2.
-\]
+$$
 
 Its dynamics can be written as
 
-\[
+$$
 \frac{\partial W}{\partial t}
 +
 \frac{p}{m}\frac{\partial W}{\partial x}
 =
 \Theta[V]W.
-\]
+$$
 
 In a particle representation, each sample is described by
 
-\[
+$$
 (x_i,p_i,s_i),
 \qquad
-s_i\in\{-1,+1\}.
-\]
+s_i \in \{-1,+1\}.
+$$
 
 The classical part follows
 
-\[
-\dot{x}=\frac{p}{m},
+$$
+\dot{x} = \frac{p}{m},
 \qquad
-\dot{p}=-\frac{dV}{dx}.
-\]
+\dot{p} = -\frac{dV}{dx}.
+$$
 
 The split-step Fourier reference method applies a half potential step, a full
 kinetic step in Fourier space, and another half potential step.
